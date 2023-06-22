@@ -1,18 +1,18 @@
 /* RESET */
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 /* GENERICS */
 
-.container{
+.container {
     width: 1180px;
     margin-left: auto;
     margin-right: auto;
@@ -22,26 +22,34 @@ img{
 
 /* MAIN */
 
-.main-block{
+.main-block {
     height: 100vh;
     width: 100vw;
     background-color: #000000;
     padding: 2.5rem;
 }
 
-.card>img{
+.card{
+    position: relative;
+}
+
+.card>img {
     width: 100%;
 }
 
-.micro{
-    background-color: lightgrey;
+.micro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(86, 82, 82, .7);
     padding: .5rem .2rem;
 }
 
 
 /* DEBUG */
 
-.debug{
+.debug {
     width: 250px;
     height: 200px;
     border: 1px solid white;
