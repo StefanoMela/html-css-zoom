@@ -10,12 +10,19 @@ img {
     max-width: 100%;
 }
 
+
 /* GENERICS */
+
+.flex{
+    display: flex;
+}
+
 
 .container {
     width: 1180px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 7rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -23,14 +30,16 @@ img {
 /* MAIN */
 
 .main-block {
-    height: 100vh;
+    height: calc(100vh - 100px);
     width: 100vw;
     background-color: #000000;
-    padding: 2.5rem;
 }
 
 .card{
     position: relative;
+    width: calc((100% / 7) - .8rem);
+    margin-right: .3rem;
+    margin-bottom: .5rem;
 }
 
 .card>img {
@@ -39,18 +48,23 @@ img {
 
 .micro {
     position: absolute;
-    bottom: 0;
+    bottom: 4px;
     left: 0;
     color: white;
     background-color: rgba(86, 82, 82, .7);
     padding: .5rem .2rem;
 }
 
+/* FOOTER */
 
-/* DEBUG */
+.fixed{
+    height: 100px;
+    background-color: #222222;
+    justify-content: space-between;
+}
 
-.debug {
-    width: 250px;
-    height: 200px;
+.debug{
+    height: 100px;
+    width: 100px;
     border: 1px solid white;
 }
