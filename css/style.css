@@ -34,6 +34,7 @@ img {
     width: 100vw;
     background-color: #000000;
     overflow: auto;
+    position: relative;
 }
 
 .card {
@@ -54,6 +55,30 @@ img {
     color: white;
     background-color: rgba(86, 82, 82, .7);
     padding: .5rem .2rem;
+}
+
+.speaker1{
+    position: absolute;
+    top: 0;
+    right: 90px;
+    color: white;
+    background-color: rgba(86, 82, 82, .7);
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.speaker2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: rgba(86, 82, 82, .7);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
 }
 
 /* FOOTER */
